@@ -8,18 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8B2C96DC2BBF3DDA00999E47 /* GeoParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C96DB2BBF3DDA00999E47 /* GeoParkApp.swift */; };
-		8B2C96DE2BBF3DDA00999E47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C96DD2BBF3DDA00999E47 /* ContentView.swift */; };
 		8B2C96E02BBF3DDC00999E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C96DF2BBF3DDC00999E47 /* Assets.xcassets */; };
 		8B2C96E32BBF3DDC00999E47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C96E22BBF3DDC00999E47 /* Preview Assets.xcassets */; };
 		8B2C96E52BBF3DDC00999E47 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C96E42BBF3DDC00999E47 /* Persistence.swift */; };
 		8B2C96E82BBF3DDC00999E47 /* GeoPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C96E62BBF3DDC00999E47 /* GeoPark.xcdatamodeld */; };
-		8B2C96EF2BBF42C900999E47 /* geotest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C96EE2BBF42C900999E47 /* geotest.swift */; };
-		8B73C4B62BC5A2B0008AD228 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73C4B52BC5A2B0008AD228 /* HomeView.swift */; };
 		8B73C4B82BC5A3DE008AD228 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73C4B72BC5A3DE008AD228 /* NumberView.swift */; };
 		8B73C4BA2BC5A3FE008AD228 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73C4B92BC5A3FE008AD228 /* WeatherView.swift */; };
 		8B73C4BC2BC5A46B008AD228 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73C4BB2BC5A46B008AD228 /* TestView.swift */; };
 		8B73C4DE2BC852E6008AD228 /* HomeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73C4DD2BC852E6008AD228 /* HomeTestView.swift */; };
-		8BEDF0362BCF425700BD70D4 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDF0352BCF425700BD70D4 /* TestHomeView.swift */; };
 		8BEDF0452BCF4E1600BD70D4 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDF0442BCF4E1600BD70D4 /* LocationViewModel.swift */; };
 		8BEDF0492BCF4E8500BD70D4 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDF0482BCF4E8500BD70D4 /* BasicView.swift */; };
 /* End PBXBuildFile section */
@@ -37,21 +33,16 @@
 /* Begin PBXFileReference section */
 		8B2C96D82BBF3DDA00999E47 /* GeoPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2C96DB2BBF3DDA00999E47 /* GeoParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoParkApp.swift; sourceTree = "<group>"; };
-		8B2C96DD2BBF3DDA00999E47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B2C96DF2BBF3DDC00999E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2C96E22BBF3DDC00999E47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B2C96E42BBF3DDC00999E47 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8B2C96E72BBF3DDC00999E47 /* GeoPark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoPark.xcdatamodel; sourceTree = "<group>"; };
-		8B2C96EE2BBF42C900999E47 /* geotest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geotest.swift; sourceTree = "<group>"; };
-		8B2C96F02BBF5E6800999E47 /* LocationSim.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LocationSim.gpx; sourceTree = "<group>"; };
 		8B2C96F12BBF613500999E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8B73C4B52BC5A2B0008AD228 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8B73C4B72BC5A3DE008AD228 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 		8B73C4B92BC5A3FE008AD228 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		8B73C4BB2BC5A46B008AD228 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		8B73C4DC2BC85226008AD228 /* GeoPark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoPark.entitlements; sourceTree = "<group>"; };
 		8B73C4DD2BC852E6008AD228 /* HomeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTestView.swift; sourceTree = "<group>"; };
-		8BEDF0352BCF425700BD70D4 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
 		8BEDF03B2BCF476600BD70D4 /* GeoParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEDF0442BCF4E1600BD70D4 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		8BEDF0482BCF4E8500BD70D4 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
@@ -98,17 +89,12 @@
 				8B73C4DC2BC85226008AD228 /* GeoPark.entitlements */,
 				8B2C96F12BBF613500999E47 /* Info.plist */,
 				8B2C96DB2BBF3DDA00999E47 /* GeoParkApp.swift */,
-				8B2C96DD2BBF3DDA00999E47 /* ContentView.swift */,
-				8B73C4B52BC5A2B0008AD228 /* HomeView.swift */,
 				8B73C4DD2BC852E6008AD228 /* HomeTestView.swift */,
 				8BEDF0442BCF4E1600BD70D4 /* LocationViewModel.swift */,
 				8B73C4B92BC5A3FE008AD228 /* WeatherView.swift */,
 				8B73C4BB2BC5A46B008AD228 /* TestView.swift */,
 				8BEDF0482BCF4E8500BD70D4 /* BasicView.swift */,
-				8BEDF0352BCF425700BD70D4 /* TestHomeView.swift */,
 				8B73C4B72BC5A3DE008AD228 /* NumberView.swift */,
-				8B2C96F02BBF5E6800999E47 /* LocationSim.gpx */,
-				8B2C96EE2BBF42C900999E47 /* geotest.swift */,
 				8B2C96DF2BBF3DDC00999E47 /* Assets.xcassets */,
 				8B2C96E42BBF3DDC00999E47 /* Persistence.swift */,
 				8B2C96E62BBF3DDC00999E47 /* GeoPark.xcdatamodeld */,
@@ -228,13 +214,9 @@
 				8BEDF0492BCF4E8500BD70D4 /* BasicView.swift in Sources */,
 				8B2C96E52BBF3DDC00999E47 /* Persistence.swift in Sources */,
 				8B2C96E82BBF3DDC00999E47 /* GeoPark.xcdatamodeld in Sources */,
-				8BEDF0362BCF425700BD70D4 /* TestHomeView.swift in Sources */,
-				8B2C96DE2BBF3DDA00999E47 /* ContentView.swift in Sources */,
 				8B73C4DE2BC852E6008AD228 /* HomeTestView.swift in Sources */,
-				8B73C4B62BC5A2B0008AD228 /* HomeView.swift in Sources */,
 				8B2C96DC2BBF3DDA00999E47 /* GeoParkApp.swift in Sources */,
 				8BEDF0452BCF4E1600BD70D4 /* LocationViewModel.swift in Sources */,
-				8B2C96EF2BBF42C900999E47 /* geotest.swift in Sources */,
 				8B73C4BC2BC5A46B008AD228 /* TestView.swift in Sources */,
 				8B73C4B82BC5A3DE008AD228 /* NumberView.swift in Sources */,
 				8B73C4BA2BC5A3FE008AD228 /* WeatherView.swift in Sources */,
